@@ -1,0 +1,29 @@
+* {
+  text-align: center;
+  background-color: #171e33;
+  color: lightgray;
+}
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.App .img-wrapper {
+  max-width: 750px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.App img {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid lightgray;
+}
+/*# sourceMappingURL=style.css.map */
