@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;800&display=swap');
+
 * {
     text-align: center;
     background-color: rgb(23, 30, 51);
-    color: rgb(211, 211, 211);
+    color: rgb(224, 224, 224);
+    font-family: 'Roboto Slab', serif;
 }
 .App {
     display: flex;
@@ -9,10 +12,17 @@
     .img-wrapper {
         max-width: 750px;
         align-self: center;
+        img {
+            width: 100%;
+            max-width: 100%;
+            border: 1px solid rgb(211, 211, 211);
+            border-radius: 5px;
+        }
     }
-    img {
-        width: 100%;
-        max-width: 100%;
-        border: 1px solid rgb(211, 211, 211);
+    p {
+        margin: 8px;
     }
+}
+footer {
+    margin-top: 50px;
 }

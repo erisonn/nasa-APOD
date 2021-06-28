@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;800&display=swap");
 * {
   text-align: center;
   background-color: #171e33;
-  color: lightgray;
+  color: #e0e0e0;
+  font-family: 'Roboto Slab', serif;
 }
 
 .App {
@@ -21,9 +23,18 @@
       align-self: center;
 }
 
-.App img {
+.App .img-wrapper img {
   width: 100%;
   max-width: 100%;
   border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.App p {
+  margin: 8px;
+}
+
+footer {
+  margin-top: 50px;
 }
 /*# sourceMappingURL=style.css.map */
